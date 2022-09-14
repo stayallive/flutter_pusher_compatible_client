@@ -4,9 +4,9 @@ _This is a fork of the [pusher_channels_flutter](https://github.com/pusher/pushe
 
 [![Latest Release](https://img.shields.io/github/v/release/stayallive/flutter_pusher_compatible_client)](https://github.com/stayallive/flutter_pusher_compatible_client/releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/stayallive/flutter_pusher_compatible_client/master/LICENSE)
-[![likes](https://badges.bar/flutter_pusher_compatible_client/likes)](https://pub.dev/packages/flutter_pusher_compatible_client/score)
-[![popularity](https://badges.bar/flutter_pusher_compatible_client/popularity)](https://pub.dev/packages/flutter_pusher_compatible_client/score)
-[![pub points](https://badges.bar/flutter_pusher_compatible_client/pub%20points)](https://pub.dev/packages/flutter_pusher_compatible_client/score)
+[![likes](https://img.shields.io/pub/likes/flutter_pusher_compatible_client?logo=dart)](https://pub.dev/packages/flutter_pusher_compatible_client/score)
+[![popularity](https://img.shields.io/pub/popularity/flutter_pusher_compatible_client?logo=dart)](https://pub.dev/packages/flutter_pusher_compatible_client/score)
+[![pub points](https://img.shields.io/pub/points/flutter_pusher_compatible_client?logo=dart)](https://pub.dev/packages/flutter_pusher_compatible_client/score)
 
 This is a [Pusher Channels](https://pusher.com/channels) compatible Flutter client that can be used with any [Pusher protocol](https://pusher.com/docs/channels/library_auth_reference/pusher-websockets-protocol/) compatible server like [Soketi](https://github.com/soketi/soketi) for example.
 
