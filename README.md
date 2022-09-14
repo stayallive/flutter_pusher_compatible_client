@@ -31,13 +31,13 @@ Below are the configuration parameters added in this package:
 
 | parameter                | Android | iOS | Web |
 | ------------------------ | ------- | --- | --- |
-| wsHost                   | ✅      | ✅ | ✅ |
+| host                     | ✅      | ✅ | ✅ |
 | wsPort                   | ✅      | ✅ | ✅ |
 | wssPort                  | ✅      | ✅ | ✅ |
 
-#### `wsHost (String)`
+#### `host (String)`
 
-The host to which connections will be made.
+The host to which connections will be made, can be used instead of `cluster`.
 
 #### `wsPort (Integer)`
 
