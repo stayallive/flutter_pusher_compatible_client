@@ -2,19 +2,20 @@
 library pusher_channels_flutter;
 
 import 'dart:async';
-import 'package:js/js.dart';
-import 'package:js/js_util.dart' as js_util;
+
 // In order to *not* need this ignore, consider extracting the 'web' version
 // of your plugin as a separate package, instead of inlining it in the same
 // package as the core of your plugin.
 // ignore: avoid_web_libraries_in_flutter
 import 'package:flutter/services.dart';
+import 'package:flutter_pusher_compatible_client/pusher-js/core/auth/options.dart';
+import 'package:flutter_pusher_compatible_client/pusher-js/core/channels/channel.dart';
+import 'package:flutter_pusher_compatible_client/pusher-js/core/channels/presence_channel.dart';
+import 'package:flutter_pusher_compatible_client/pusher-js/core/options.dart';
+import 'package:flutter_pusher_compatible_client/pusher-js/core/pusher.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-import 'package:pusher_channels_flutter/pusher-js/core/auth/options.dart';
-import 'package:pusher_channels_flutter/pusher-js/core/channels/channel.dart';
-import 'package:pusher_channels_flutter/pusher-js/core/channels/presence_channel.dart';
-import 'package:pusher_channels_flutter/pusher-js/core/options.dart';
-import 'package:pusher_channels_flutter/pusher-js/core/pusher.dart';
+import 'package:js/js.dart';
+import 'package:js/js_util.dart' as js_util;
 
 class PusherError extends Error {
   String message;

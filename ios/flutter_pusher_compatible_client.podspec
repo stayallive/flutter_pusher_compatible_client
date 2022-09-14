@@ -3,15 +3,15 @@
 # Run `pod lib lint pusher_channels.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'pusher_channels_flutter'
+  s.name             = 'flutter_pusher_compatible_client'
   s.version          = '0.0.1'
   s.summary          = 'Pusher Channels Flutter integration.'
   s.description      = <<-DESC
 A new flutter plugin project.
                        DESC
-  s.homepage         = 'https://github.com/pusher/pusher-channels-flutter'
+  s.homepage         = 'https://github.com/stayallive/flutter_pusher_compatible_client'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Pusher' => 'info@pusher.com' }
+  s.author           = { 'Alex Bouma' => 'alex@bouma.dev' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

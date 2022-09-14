@@ -1,4 +1,4 @@
-group 'com.pusher'
+group 'dev.stayallive'
 version '1.0-SNAPSHOT'
 
 buildscript {

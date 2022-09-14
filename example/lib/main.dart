@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'package:flutter/material.dart';
+import 'package:flutter_pusher_compatible_client/pusher_channels_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:pusher_channels_flutter/pusher_channels_flutter.dart';
 
 void main() {
   runApp(const MyApp());

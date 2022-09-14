@@ -1,5 +1,5 @@
-name: pusher_channels_flutter_example
-description: Demonstrates how to use the pusher_channels plugin.
+name: flutter_pusher_compatible_client_example
+description: Demonstrates how to use the flutter_pusher_compatible_client plugin.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -19,7 +19,7 @@ dependencies:
     sdk: flutter
   shared_preferences: "2.0.8"
 
-  pusher_channels_flutter:
+  flutter_pusher_compatible_client:
     # When depending on this package from a real application you should use:
     #   pusher_channels: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints

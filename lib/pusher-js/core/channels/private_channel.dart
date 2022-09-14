@@ -1,10 +1,11 @@
 @JS()
 library core.channels.private_channel;
 
+import 'package:flutter_pusher_compatible_client/pusher-js/core/pusher.dart';
 import "package:js/js.dart";
-import 'package:pusher_channels_flutter/pusher-js/core/pusher.dart';
-import "channel.dart" show Channel;
+
 import "../auth/options.dart" show AuthorizerCallback;
+import "channel.dart" show Channel;
 
 /// Extends public channels to provide private channel interface.
 @JS()

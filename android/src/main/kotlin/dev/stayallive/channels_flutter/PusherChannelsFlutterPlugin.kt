@@ -1,4 +1,4 @@
-package com.pusher.channels_flutter
+package dev.stayallive.channels_flutter
 
 import com.google.gson.Gson
 import com.pusher.client.Authorizer

@@ -5,19 +5,20 @@ library interface;
 
 import 'dart:html';
 
+import 'package:flutter_pusher_compatible_client/pusher-js/runtimes/web/dom/script_receiver_factory.dart';
 import "package:js/js.dart";
-import 'package:pusher_channels_flutter/pusher-js/runtimes/web/dom/script_receiver_factory.dart';
+
 import "../core/auth/auth_transports.dart" show AuthTransport;
-import "../core/timeline/timeline_transport.dart" show TimelineTransport;
-import "../core/http/ajax.dart" show Ajax;
-import "../core/socket.dart" show Socket;
-import "../core/reachability.dart" show Reachability;
-import "../core/strategies/strategy.dart" show Strategy;
 import "../core/config.dart" show Config;
-import "../core/strategies/strategy_options.dart" show StrategyOptions;
-import "../core/transports/transports_table.dart" show TransportsTable;
+import "../core/http/ajax.dart" show Ajax;
 import "../core/http/http_factory.dart" show HTTPFactory;
 import "../core/http/http_request.dart" show HTTPRequest;
+import "../core/reachability.dart" show Reachability;
+import "../core/socket.dart" show Socket;
+import "../core/strategies/strategy.dart" show Strategy;
+import "../core/strategies/strategy_options.dart" show StrategyOptions;
+import "../core/timeline/timeline_transport.dart" show TimelineTransport;
+import "../core/transports/transports_table.dart" show TransportsTableTPRequest;
 import "web/dom/jsonp_request.dart" show JSONPRequest;
 
 /// This interface is implemented in web/runtime, node/runtime, react-native/runtime
